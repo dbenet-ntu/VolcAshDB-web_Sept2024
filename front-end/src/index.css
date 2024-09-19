@@ -1,0 +1,26 @@
+/* Importing the default Ant Design styles */
+@import '~antd/dist/antd.css';
+
+/* Base styles for the entire document */
+body {
+  /* Reset default margin */
+  margin: 0;
+  
+  /* Font stack for the body text, prioritizing system fonts */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  /* Smoothens font rendering on macOS */
+  -webkit-font-smoothing: antialiased;
+  
+  /* Smoothens font rendering on Firefox for macOS */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Styles for code elements */
+code {
+  /* Font stack for code text, prioritizing monospace fonts */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

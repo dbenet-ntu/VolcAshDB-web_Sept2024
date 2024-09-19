@@ -1,0 +1,67 @@
+{
+	"volcanoName": {
+		"id":1,
+		"oriTag": "Volcano Name",
+		"choices": []
+	},
+	"eruptions": {
+		"id":2,
+		"oriTag": "Eruptions",
+		"choices": []
+	},
+	"eruptiveStyle" : {
+		"id": 3,
+		"oriTag": "Eruptive Style",
+		"choices":["subplinian", "phreatic", "dome explosion", "lava fountaining", "plinian", "strombolian"]
+	},
+	"grainSize" : {
+		"id" : 4,
+		"oriTag": "Grain Size",
+		"choices": ["phi0-phi1", "phi1-phi2", "phi2-phi3", "mesh60", "mesh120", "morephi0"]
+	},
+	"mainType": {
+		"id": 5,
+		"oriTag": "Main Type",
+		"choices":["free crystal","altered material","juvenile","lithic"]
+	},
+	"shape" :{
+		"id": 6,
+		"oriTag": "Shape",
+		"choices":["blocky", "fluidal", "microtubular","highly vesicular","spongy","pumice","aggregate"]
+	},
+	"crystallinity" :{
+		"id": 7,
+		"oriTag": "Crystallinity",
+		"choices":["low crystallinity", "mid crystallinity", "high crystallinity"]
+	},
+	"color" :{
+		"id":8,
+		"oriTag": "Color",
+		"choices":["black","transparent"]
+	},
+	"hydroAlterDegree" :{
+		"id":9,
+		"oriTag": "Hydrothermal Alteration Degree",
+		"choices":["none", "low", "medium","high"]
+	},
+	"juvenileType" :{
+		"id":10,
+		"oriTag": "Juvenile Type",
+		"choices":["standard juvenile","coated juvenile particles"]
+	},
+	"lithicType" :{
+		"id":11,
+		"oriTag": "Lithic Type",
+		"choices":["standard lithic","recycled juvenile particles"]
+	},
+	"alteredMaterialType" :{
+		"id":12,
+		"oriTag": "Altered Material Type",
+		"choices":["weathered material", "hydrothermally altered material"]
+	},
+	"freeCrystalType" :{
+		"id" : 13,
+		"oriTag": "Free Crystal Type",
+		"choices": ["plagioclase","pyroxene", "amphibole","S-group mineral","olivine","others"]
+	}
+}
