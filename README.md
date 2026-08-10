@@ -1,6 +1,6 @@
 # VolcAshDB_IPGP
 
-Implementation of VolcAshDB in IPGP Virtual Machines
+Implementation of VolcAshDB in IPGP Virtual Machine
 
 ## Overview
 
